@@ -4,8 +4,6 @@ Niezbędne do uruchomienia:
 - maven do pobrania zależności
 - jdk 8+ do uruchomienia
 
-Link do dokumentacji api:
-http://localhost:8080/swagger-ui.html#/
 
 Opis budowania:
 Dzięki zastosowaniu frontend-maven-plugin
@@ -20,6 +18,9 @@ z poziomu głównego aplikacji:
 
 Link do aplikacji:
 http://localhost:8080/
+
+Link do dokumentacji api:
+http://localhost:8080/swagger-ui.html#/
 
 
 
