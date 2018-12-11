@@ -1,0 +1,17 @@
+<div id="calc-container">
+  <div>
+    <label>Dzienna kwota brutto: </label>
+    <input type="number" min="1" class="form-control"
+           [(ngModel)]="dailySalary" (ngModelChange)="setDailySalary($event)"  required/>
+  </div>
+  <div>
+    <label>Państwo:</label>
+    <select class="form-control" [(ngModel)]="country" id="country" required>
+      <option *ngFor="let country of countries" [value]="country">{{country}}</option>
+    </select>
+  </div>
+  <button (click)="calculate()" class="btn btn-dark">Oblicz</button>
+  <div *ngIf="error" class="alert alert-danger" role="alert">Wystąpił problem podczas obliczania zarobków. Spróbuj ponownie później.</div>
+  <div *ngIf="noSalary" class="alert alert-danger" role="alert">Proszę wprowadzić prawidłową stawkę dzienną.</div>
+  <div *ngIf="calculated" class="alert alert-success" role="alert">Kwota netto w PLN: {{ plnSalary }}</div>
+</div>
