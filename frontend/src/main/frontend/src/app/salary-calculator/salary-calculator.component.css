@@ -1,7 +1,7 @@
 #calc-container{
 padding: 25px;
 width:400px;
-
+min-height: 350px;
 background-color:#869f90;
 }
 button{
