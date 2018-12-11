@@ -9,14 +9,14 @@ http://localhost:8080/swagger-ui.html#/
 
 Opis budowania:
 Dzięki zastosowaniu frontend-maven-plugin
-część serwerowa jak i frontendową są budowane jednocześnie,
+część serwerowa jak i frontendowa są budowane jednocześnie,
 połączone wspólnym parent modułem.
 
 Uruchomienie,
 z poziomu głównego aplikacji:
-mvn clean install
-cd backend/
-mvn spring-boot:run
+- mvn clean install
+- cd backend/
+- mvn spring-boot:run
 
 
 
