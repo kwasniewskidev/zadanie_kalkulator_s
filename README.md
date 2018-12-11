@@ -18,6 +18,9 @@ z poziomu głównego aplikacji:
 - cd backend/
 - mvn spring-boot:run
 
+Link do aplikacji:
+http://localhost:8080/
+
 
 
 
